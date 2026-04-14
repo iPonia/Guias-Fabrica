@@ -99,7 +99,7 @@ Exemplo do sensor:
 Esquema do conector:
 
 <div style="text-align: center;">
-<img src="./assets/imgs/conectorComrele.png" alt="" width="70%">
+<img src="./assets/imgs/conectorComRele.png" alt="" width="70%">
 </div>
 
 Esquema de ligação do Sensor ao Conector
