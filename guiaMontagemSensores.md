@@ -5,7 +5,7 @@
 _Atualizado em 14/04/2026_
 
 ---
-
+<!--
 # Sumário
 
 1. [Sensores Plugados ao F16/H1/I6](#sensores-plugados-ao-f16)
@@ -39,12 +39,13 @@ _Atualizado em 14/04/2026_
    3.1 [Sirene](#sirene)
 
 4. [Dúvidas? Estamos a disposição](#dúvidas-estamos-a-disposição)
+-->
 
 # Sensores Plugados ao F16/H1/I6
 
 Estes sensores você conecta diretamente no F16, e não fazem uso de uma placa eletrônica adicional.
 
-## Sensor de Vazão de efeito hall para Linha Principal ou de Ferti
+## Sensor de Vazão (efeito hall) para Linha Principal ou de Ferti
 
 - Comprimento do cabo: Cabo padrão com 5 metros de comprimento, podendo ser alongado até 15 metros.
 - Conector obrigatório de 4 vias, com o 3° pino de cima pra baixo ficando morto.
@@ -63,19 +64,25 @@ Esquema do conector:
 
 ## Sensor de Vazão (contato seco) para Linha Principal ou de Ferti
 
-- Comprimento do cabo: Cabo padrão com 5 metros de comprimento, podendo ser alongado até 15 metros.
+- Comprimento do cabo: Cabo padrão com 5 metros de comprimento, podendo ser alongado até 50 metros.
 - Conector obrigatório de 4 vias, com o 3° pino de cima pra baixo ficando morto.
-- Utilizar Resistor pull UP (entre sinal e tensão +) com valor de 4,7k a 10k
+- Utilizar Acessório conector (SKU 568 ou 1083)
 
 Exemplo de sensor:
 <div style="text-align: center;">
-<img src="./assets/imgs/fluxo.png" alt="" width="50%">
+<img src="./assets/imgs/vazaoreed.png" alt="" width="50%">
 </div>
 
 Esquema do conector:
 
 <div style="text-align: center;">
-<img src="./assets/imgs/conector4viasf16.png" alt="" width="70%">
+<img src="./assets/imgs/conectorComRele.png" alt="" width="70%">
+</div>
+
+Esquema de ligação do Sensor ao Conector
+
+<div style="text-align: center;">
+<img src="./assets/imgs/sensorComRele.png" alt="" width="70%">
 </div>
 
 ## Sensor de Chuva
@@ -95,9 +102,14 @@ Esquema do conector:
 <img src="./assets/imgs/conectorComrele.png" alt="" width="70%">
 </div>
 
+Esquema de ligação do Sensor ao Conector
+
+<div style="text-align: center;">
+<img src="./assets/imgs/sensorComRele.png" alt="" width="70%">
+</div>
 
 
-
+<!--
 **Atuação:** Bloqueio ou atuação de programações quando detectado a quantidade de chuva ajustada.
 
 **Número máximo permitido:** 1.
