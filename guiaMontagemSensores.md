@@ -56,6 +56,12 @@ Exemplo de sensor:
 <img src="./assets/imgs/fluxo.png" alt="" width="50%">
 </div>
 
+Local de conexão na Placa
+
+<div style="text-align: center;">
+<img src="./assets/imgs/destaquesensorf16.png" alt="" width="70%">
+</div>
+
 Esquema do conector:
 
 <div style="text-align: center;">
@@ -71,6 +77,12 @@ Esquema do conector:
 Exemplo de sensor:
 <div style="text-align: center;">
 <img src="./assets/imgs/vazaoreed.png" alt="" width="50%">
+</div>
+
+Local de conexão na Placa
+
+<div style="text-align: center;">
+<img src="./assets/imgs/destaquesensorf16.png" alt="" width="70%">
 </div>
 
 Esquema do conector:
@@ -96,6 +108,12 @@ Exemplo do sensor:
 <img src="./assets/imgs/sensorchuva.png" alt="" width="50%">
 </div>
 
+Local de conexão na Placa
+
+<div style="text-align: center;">
+<img src="./assets/imgs/destaquesensorf16.png" alt="" width="70%">
+</div>
+
 Esquema do conector:
 
 <div style="text-align: center;">
@@ -108,6 +126,64 @@ Esquema de ligação do Sensor ao Conector
 <img src="./assets/imgs/sensorComRele.png" alt="" width="70%">
 </div>
 
+## Sensor binário em F16
+
+- Comprimento do cabo: Cabo padrão com 5 metros de comprimento, podendo ser alongado até 30 metros.
+- Conector sensor preferencial de 4 vias, com o 3° pino de cima pra baixo ficando morto.
+- Necessário relé atork para intermediação do comando
+- Necessária fonte 12VDC auxiliar (A mesma do multisensor)
+
+Exemplo do sensor:
+<div style="text-align: center;">
+<img src="./assets/imgs/nivelxkc.jpg" alt="" width="50%">
+</div>
+
+Local de conexão na Placa
+
+<div style="text-align: center;">
+<img src="./assets/imgs/destaquesensorf16.png" alt="" width="70%">
+</div>
+
+Esquema do conector:
+
+<div style="text-align: center;">
+<img src="./assets/imgs/conectorComRele.png" alt="" width="70%">
+</div>
+
+Esquema de ligação do Sensor ao Conector
+
+<div style="text-align: center;">
+<img src="./assets/imgs/LigaSensorLigaRele.png" alt="" width="70%">
+</div>
+
+# Sensores plugados ao MultiSensor
+
+Estes sensores você conecta no Multisensor.
+
+_Considerado a versão de placa v4A-02/26_
+
+## Sensor binário
+
+- Comprimento do cabo: Cabo padrão com 5 metros de comprimento, podendo ser alongado até 30 metros.
+- Vai conectado direto a uma das portas digitais de 3 vias (DIG 1,...) do multisensor
+- Necessário o uso de resistor pull-down
+
+Exemplo do sensor:
+<div style="text-align: center;">
+<img src="./assets/imgs/nivelxkc.jpg" alt="" width="50%">
+</div>
+
+Local de conexão na Placa
+
+<div style="text-align: center;">
+<img src="./assets/imgs/destaquedigitais.jpeg" alt="" width="50%">
+</div>
+
+Esquema de ligação do Sensor ao Conector
+
+<div style="text-align: center;">
+<img src="./assets/imgs/binarioMS.png" alt="" width="70%">
+</div>
 
 <!--
 **Atuação:** Bloqueio ou atuação de programações quando detectado a quantidade de chuva ajustada.
